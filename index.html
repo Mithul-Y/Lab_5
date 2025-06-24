@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Volunteer Form</title>
+</head>
+<body>
+	<h1><strong>Volunteer Form</strong></h1>
+	<form method="post" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" >
+		<fieldset>
+		<legend>My Info</legend>
+		<div>
+			<label>First name:<input type="first name" name="first_name_field"></label>
+		</div>
+		<div>
+			<label>Last name:<input type="last name" name="last_name_field"></label>
+		</div>
+		<div>
+			<label>Phone:<input type="phone" name="phone_field"></label>
+		</div>
+		<div>
+			<label>Email:<input type="email" name="email_field"></label>
+		</div>
+		<div>
+			<label>Gender:</label>
+			<label>Male<input type="radio" name="gender_field"></label>
+			<label>Female<input type="radio" name="gender_field"></label>
+		</div>
+		<div>
+			<label>Age:<input name="age_field"></label>
+			<select name="available_field[]">
+				<option selected>under 18</option>
+				<option>over 18</option>
+			</select>
+		</div>
+		<legend>My Availability</legend>
+		<h2>Days Available</h2>
+		<div>
+			<label>Sunday<input type="checkbox" name="hidden_field" value="Sun"></label>
+			<label>Monday<input type="checkbox" name="hidden_field" value="Mon"></label>
+			<label>Tuesday<input type="checkbox" name="hidden_field" value="Tue"></label>
+			<label>Wednesday<input type="checkbox" name="hidden_field" value="Wed"></label>
+			<label>Thursday<input type="checkbox" name="hidden_field" value="Thu"></label>
+			<label>Friday<input type="checkbox" name="hidden_field" value="Fri"></label>
+			<label>Saturday<input type="checkbox" name="hidden_field" value="Sat"></label>
+	</form>
+</body>
+</html>
